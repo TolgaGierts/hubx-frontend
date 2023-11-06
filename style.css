@@ -109,16 +109,23 @@ body {
   animation-fill-mode: forwards;
 }
 .document-stack:nth-of-type(1) {
-  top: 20%;
+  top: 15%;
   animation-delay: 1s;
+}
+.document-stack:nth-of-type(1) img {
+  transform: scale(0.8);
 }
 
 .document-stack:nth-of-type(2) {
-  top: 25%;
+  top: 22%;
+
   animation-delay: 1.5s;
 }
+.document-stack:nth-of-type(2) img {
+  transform: scale(0.9);
+}
 .document-stack:nth-of-type(3) {
-  top: 30%;
+  top: 29%;
   animation-delay: 2s;
 }
 
